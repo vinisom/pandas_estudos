@@ -28,11 +28,6 @@ summary.columns #apareceu mulIndex
 
 # %%
 
-summary(["QtdePontos", "mean"])
-
-# %%
-
 summary.columns = ["idCLiente","qtdeTransacao", "TotalPontos", "avgPontos" ]
 summary
 # aqui definimos como será nossas colunas
-

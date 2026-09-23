@@ -6,7 +6,7 @@ transacoes = pd.read_csv("../data/transacoes.csv" ,sep=";")
 transacoes.head()
 
 # %%
-#ele criou segundo ele do cu para usar como exemplo
+#ele criou segundo ele do cu para usar como exemplo que podemos criar funções e usar 
 
 def diff_amp(x:pd.Series):
     amplitude = x.max() - x.min()
