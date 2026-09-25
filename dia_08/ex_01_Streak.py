@@ -19,7 +19,7 @@ produtos
 # %%
 
 cliente_transacao_produto = transacoes.merge(
-                            transaco_produto,
+                            transacao_produto,
                             on="IdTransacao",
                             how="left",
                             )
